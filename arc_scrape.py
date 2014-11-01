@@ -81,36 +81,29 @@ for url in gallery_urls:
 		arc_image['image_url'] = image_url
 		arc_image['image_meta'] = image_meta
 		arc_image['gallery'] = gallery_title
+		arc_image['gallery_url'] = url
 		arc_image['posted_to_tumblr'] = False
 
 		#write sub-dict to the main dict with id as key
-		#TO DO: we'll want a check here to see if the image is already in the dict, and check the status of the posted_to_tumblr flag
-
+		#if the image is not already in our dictionary, let's add it
 		if image_id not in arc_images:
+			arc_images[image_id] = arc_image
+
+		#if the image IS already in our dictionary, but hasn't been posted to social media yet, let's update the info in case something changed
+		if image_id in arc_images and arc_images[image_id]['posted_to_tumblr'] == False:
 			arc_images[image_id] = arc_image
 
 	print('We now have images from', gallery_title)
 
-#print the dict
-#print(arc_images)
-
-
-
-
-
-
-
-
-
-
-
 
 
 #write it to json
-arc_dump = json.dumps(arc_images, indent=4)
+arc_dump = json.dumps(arc_images, indent=4, ensure_ascii=False)
 
-#TO DO: need to make this re-writable, only add new images, update posted_to_tumblr status
 with open('arc_image_of_the_day.json', 'w') as arc_json:
 	arc_json.write(arc_dump)
 
 print('We just dumped', len(arc_images), 'images to arc_image_of_the_day.json')
+
+
+
