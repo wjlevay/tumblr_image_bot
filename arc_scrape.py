@@ -2,7 +2,7 @@
 ### Scrape the ARC gallery pages for images and image metadata, write to json (then create Tumblr posts -- TO DO)
 
 from bs4 import BeautifulSoup
-import requests, json
+import requests, json, codecs
 
 #Go to the main gallery page to get a list of gallery URLs
 gallery_main_url = 'http://arcmusic.org/galleries'
@@ -98,9 +98,9 @@ for url in gallery_urls:
 
 
 #write it to json
-arc_dump = json.dumps(arc_images, indent=4, ensure_ascii=False)
+arc_dump = json.dumps(arc_images, indent=4)
 
-with open('arc_image_of_the_day.json', 'w') as arc_json:
+with codecs.open('arc_image_of_the_day.json', 'w', encoding='utf-8') as arc_json:
 	arc_json.write(arc_dump)
 
 print('We just dumped', len(arc_images), 'images to arc_image_of_the_day.json')
