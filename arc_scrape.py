@@ -2,7 +2,7 @@
 ### Scrape the ARC gallery pages for images and image metadata, write to json (then create Tumblr posts -- TO DO)
 
 from bs4 import BeautifulSoup
-import requests, json, codecs
+import requests, json, codecs, read_write
 
 #Go to the main gallery page to get a list of gallery URLs
 gallery_main_url = 'http://arcmusic.org/galleries'
@@ -34,12 +34,13 @@ for gallery_link in gallery_links:
 print('We have a list of gallery URLs!')
 print(gallery_urls)
 
+###################################
 
-
-#create an empty main dictionary for the images
-arc_images = {}
+#open the json file for reading and load to dict
+arc_images = read_write.read('arc_image_of_the_day')
 
 ###################################
+
 #here we start looking at each page
 for url in gallery_urls:
 
@@ -74,7 +75,7 @@ for url in gallery_urls:
 
 		#get the url and the title info
 		image_url = image_link['href']
-		image_meta = image_link['title']
+		image_meta = image_link['title'].replace('12 - inch', '12\"').replace('12\u201d', '12\"').replace('33.3', '33')
 		image_id = image_link['data-image-id']
 
 		#write to the sub-dict
@@ -95,12 +96,9 @@ for url in gallery_urls:
 
 	print('We now have images from', gallery_title)
 
-
-
 #write it to json
-arc_dump = json.dumps(arc_images, indent=4)
-
 with codecs.open('arc_image_of_the_day.json', 'w', encoding='utf-8') as arc_json:
+	arc_dump = json.dumps(arc_images, indent=4)
 	arc_json.write(arc_dump)
 
 print('We just dumped', len(arc_images), 'images to arc_image_of_the_day.json')
