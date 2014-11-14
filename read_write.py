@@ -19,3 +19,6 @@ def write(filename, dictionary):
 		#write the updated dictionary to json
 		dump = json.dumps(dictionary, indent=4)
 		filename.write(dump)
+
+	#close the file
+	filename.close

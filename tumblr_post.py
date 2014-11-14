@@ -30,13 +30,12 @@ user_count = input('>> How many images to you want to send to the Tumblr queue? 
 #parse the dictionary randomly and assign variables
 for arc_image in random.sample(arc_images.keys(), len(arc_images)):
 
-	tags = []
 	url = arc_images[arc_image]['image_url'].encode('utf-8')
-	gallery = arc_images[arc_image]['gallery'].encode('utf-8')
-	tags.append(gallery)
 	caption = arc_images[arc_image]['image_meta'].encode('utf-8')
-	posted = arc_images[arc_image]['posted_to_tumblr']
 	gallery_url = arc_images[arc_image]['gallery_url'].encode('utf-8')
+	gallery = arc_images[arc_image]['gallery'].encode('utf-8')
+	tags = [gallery]
+	posted = arc_images[arc_image]['posted_to_tumblr']
 
 	#assign the medium as a tag
 	if gallery == 'Pop music pulp paperbacks':
@@ -56,7 +55,7 @@ for arc_image in random.sample(arc_images.keys(), len(arc_images)):
 	if gallery != 'Adopt-a-record' and posted == False:
 
 		#Creates a photo post using a source URL
-		client.create_photo('arcnyc', state="queue", tags=tags, source=url, caption=caption+'<br>More like this: '+gallery_url)
+		client.create_photo('arcnyc', state="queue", tags=tags, source=url, caption=caption+'<br>more like this: '+gallery_url)
 
 		#Give us a status update
 		print ('Created image post for: ', url)
@@ -75,10 +74,6 @@ for arc_image in random.sample(arc_images.keys(), len(arc_images)):
 print ('We have', count, 'posts heading to the Tumblr queue!')
 
 #open the file for writing & dump
-#read_write.write('arc_image_of_the_day', 'arc_images')
-
-with codecs.open('arc_image_of_the_day.json', 'w', encoding='utf-8') as arc_json:
-	arc_dump = json.dumps(arc_images, indent=4)
-	arc_json.write(arc_dump)
+read_write.write('arc_image_of_the_day', arc_images)
 
 

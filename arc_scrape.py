@@ -1,5 +1,5 @@
 ### ARC IMAGE OF THE DAY
-### Scrape the ARC gallery pages for images and image metadata, write to json (then create Tumblr posts -- TO DO)
+### Scrape the ARC gallery pages for images and image metadata, write to json
 
 from bs4 import BeautifulSoup
 import requests, json, codecs, read_write
@@ -97,9 +97,7 @@ for url in gallery_urls:
 	print('We now have images from', gallery_title)
 
 #write it to json
-with codecs.open('arc_image_of_the_day.json', 'w', encoding='utf-8') as arc_json:
-	arc_dump = json.dumps(arc_images, indent=4)
-	arc_json.write(arc_dump)
+read_write.write('arc_image_of_the_day', arc_images)
 
 print('We just dumped', len(arc_images), 'images to arc_image_of_the_day.json')
 
