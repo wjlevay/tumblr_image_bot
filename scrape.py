@@ -1,28 +1,10 @@
 ### Image Scraper
 
 from bs4 import BeautifulSoup
-import requests, json, codecs, read_write
-
-# read the settings file
-Config = ConfigParser.ConfigParser()
-Config.read('settings.ini')
-
-# set up the helper function for the settings
-def ConfigSectionMap(section):
-    dict1 = {}
-    options = Config.options(section)
-    for option in options:
-        try:
-            dict1[option] = Config.get(section, option)
-            if dict1[option] == -1:
-                DebugPrint("skip: %s" % option)
-        except:
-            print("exception on %s!" % option)
-            dict1[option] = None
-    return dict1
+import requests, json, codecs, read_write, settings
 
 # get some settings
-base_url = ConfigSectionMap('Scrape')['base_url']
+base_url = settings.base_url
 
 # Go to the main gallery page to get a list of gallery URLs
 main_page = requests.get(base_url)

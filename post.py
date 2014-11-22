@@ -1,38 +1,19 @@
 ### Friendly Neighborhood Tumblr Bot
 
-import json, secret, pytumblr, codecs, random, read_write, ConfigParser
-
-# read the settings file
-Config = ConfigParser.ConfigParser()
-Config.read('settings.ini')
-
-# set up the helper function for the settings
-def ConfigSectionMap(section):
-    dict1 = {}
-    options = Config.options(section)
-    for option in options:
-        try:
-            dict1[option] = Config.get(section, option)
-            if dict1[option] == -1:
-                DebugPrint("skip: %s" % option)
-        except:
-            print("exception on %s!" % option)
-            dict1[option] = None
-    return dict1
+import json, settings, pytumblr, codecs, random, read_write
 
 # get some settings
-username = ConfigSectionMap('Tumblr')['username']
-state = ConfigSectionMap('Tumblr')['state']
-exclusions = [ConfigSectionMap('Tumblr')['exclusions']]
-more = ConfigSectionMap('Tumblr')['more']
+username = settings.username
+state = settings.state
+exclusions = settings.post_exclusions
+more = settings.more
 
 # Authenticate via OAuth
-# Get the keys from the secret.py file
 client = pytumblr.TumblrRestClient(
-    secret.consumer_key,
-    secret.consumer_secret,
-    secret.oauth_token,
-    secret.oauth_secret,
+    settings.consumer_key,
+    settings.consumer_secret,
+    settings.oauth_token,
+    settings.oauth_secret,
 )
 
 # open the json file for reading and load to dict
@@ -51,29 +32,43 @@ for image in random.sample(images.keys(), len(images)):
 	caption = images[image]['image_meta'].encode('utf-8')
 	gallery_url = images[image]['gallery_url'].encode('utf-8')
 	gallery = images[image]['gallery'].encode('utf-8')
-	tags = [gallery]
 	posted = images[image]['posted_to_tumblr']
+	tags = []
 
-	# separate this section out into config file
-	# assign the medium as a tag
-	if gallery == 'Pop music pulp paperbacks':
-		tags.append('books')
-		tags.append('book covers')
-	elif gallery == '45 adaptors':
-		tags.append('objects')
-	elif gallery == 'LA punk flyers':
-		tags.append('ephemera')
-	else:
-		tags.append('records')
-		tags.append('album covers')
+	# Assign some tags
+	# Append gallery title as a tag
+	if settings.gallery_as_tag == True and gallery != '':
+		tags.append(gallery)
 
-	# what other tags can we add?
-	if '33 rpm' in caption or '45 rpm' in caption:
-		tags.append('vinyl')
+	# Get tags by gallery title
+	tags_by_gallery = settings.tags_by_gallery
+	if tags_by_gallery:
+		for tbg in tags_by_gallery:
+			if tbg == gallery or tbg == gallery_url:
+				for a_tag_by_gallery in tags_by_gallery[tbg]:
+					tags.append(a_tag_by_gallery)
+			else:
+				if tags_by_gallery['default']:
+					for a_tag_by_gallery in tags_by_gallery['default']:
+						tags.append(a_tag_by_gallery)
+
+	# Append tags by term in caption
+	tags_by_caption = settings.tags_by_caption
+	if tags_by_caption:
+		for tbc in tags_by_caption:
+			if tbc in caption:
+				for a_tag_by_caption in tags_by_caption[tbc]:
+					tags.append(a_tag_by_caption)
+
+	# Append universal tag
+	universal_tags = settings.universal_tags
+	if universal_tags:
+		for t in universal_tags:
+			tags.append(t)
 
 	# Exclude any galleries from posting?
 	# if we haven't posted this one yet, let's make a post.
-	if gallery not in exclusions and posted == False:
+	if gallery not in exclusions and posted == False or gallery_url not in exclusions and posted == False:
 
 		#Creates a photo post using a source URL
 		client.create_photo(username, state=state, tags=tags, source=url, caption=caption+'<br>'+more+': '+gallery_url)
