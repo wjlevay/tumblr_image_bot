@@ -5,6 +5,7 @@ import json, settings, pytumblr, codecs, random, read_write
 # get some settings
 username = settings.username
 state = settings.state
+random_image = settings.random_image
 exclusions = settings.post_exclusions
 more = settings.more
 
@@ -23,11 +24,17 @@ images = read_write.read('images')
 count = 0
 
 # ask user how many posts (up to 300)
-user_count = input('>> How many images to you want to send to the Tumblr queue? (300 max): ')
+user_count = input('>> How many images to you want to send to Tumblr? (300 max): ')
 
-# parse the dictionary randomly and assign variables
-for image in random.sample(images.keys(), len(images)):
+# Should we parse the dictionary randomly?
+if random_image == True:
+	sample = random.sample(images.keys(), len(images))
+else:
+	sample = images
 
+for image in sample:
+
+	# Assign some variables
 	url = images[image]['image_url'].encode('utf-8')
 	caption = images[image]['image_meta'].encode('utf-8')
 	gallery_url = images[image]['gallery_url'].encode('utf-8')
@@ -49,8 +56,8 @@ for image in random.sample(images.keys(), len(images)):
 					tags.append(a_tag_by_gallery)
 			else:
 				if tags_by_gallery['default']:
-					for a_tag_by_gallery in tags_by_gallery['default']:
-						tags.append(a_tag_by_gallery)
+					for a_default_tag in tags_by_gallery['default']:
+						tags.append(a_default_tag)
 
 	# Append tags by term in caption
 	tags_by_caption = settings.tags_by_caption
