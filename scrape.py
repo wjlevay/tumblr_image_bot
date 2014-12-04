@@ -20,28 +20,42 @@ main_page_html = main_page.text
 soup = BeautifulSoup(main_page_html)
 
 ##############
-# keep going with abstraction/config file
 
-# get the gallery urls
-gallery_list = soup.find('div', attrs = {'class': 'gallery-links'})
-gallery_links = gallery_list.find_all('a')
+if settings.gallery_link_list == True:
 
-# set up a list for urls
-gallery_urls = []
+	gallery_link_info = settings.gallery_link_info
 
-# put the urls in the list
-for gallery_link in gallery_links:
+	# get the gallery urls
+	gallery_list = soup.find(attrs = gallery_link_info)
+	gallery_links = gallery_list.find_all('a')
 
-	gallery_url = gallery_link['href']
-	gallery_urls.append(gallery_url)
+	# set up a list based on the settings file
+	gallery_urls = settings.gallery_urls
 
-print('We have a list of gallery URLs!')
-print(gallery_urls)
+	# get any exclusions
+	exclusions = settings.scrape_exclusions
+
+	# put the urls in the list
+	for gallery_link in gallery_links:
+
+		gallery_url = gallery_link['href']
+
+		if gallery_link['href'] not in exclusions:
+			
+			gallery_urls.append(gallery_url)
+
+	print('We have a list of URLs!')
+	print(gallery_urls)
 
 ###################################
 
 # open the json file for reading and load to dict
-images = read_write.read('images')
+json_dict = read_write.read('images')
+
+if json_dict:
+	images = json_dict
+else:
+	images = {}
 
 ###################################
 
@@ -49,14 +63,14 @@ images = read_write.read('images')
 for url in gallery_urls:
 
 	# get the page
-	arc_gallery = requests.get(url)
+	gallery = requests.get(url)
 
 	# check if we get an error code
-	if arc_gallery.status_code !=200:
+	if gallery.status_code !=200:
 		print ('There was an error with: ', url)
 
 	# get the text of the page
-	gallery_html = arc_gallery.text
+	gallery_html = gallery.text
 
 	# parse it with BeautifulSoup
 	soup = BeautifulSoup(gallery_html)
@@ -72,7 +86,7 @@ for url in gallery_urls:
 	for a_thumb in all_thumbs:
 
 		# empty sub-dict
-		arc_image = {}
+		image = {}
 
 		# get the link in the thumbnail div
 		image_link = a_thumb.find('a')
