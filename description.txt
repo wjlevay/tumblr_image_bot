@@ -1,5 +1,5 @@
 Tumblr Image Bot: a friendly social-media robot
-[github link]
+http://github.com/wjlevay/tumblr_image_bot
 
 W.J. Levay
 @wjlevay
@@ -22,9 +22,9 @@ Future development:
 * Set up web scraping “profiles” for other popular image-gallery generators, e.g., CONTENTdm, Omeka, Flickr, Tumblr itself
 
 Links:
-* Github repository:
+* Github repository: http://github.com/wjlevay/tumblr_image_bot
 * The ARChive of Contemporary Music: http://arcmusic.org
 * Sample ARC gallery page: http://arcmusic.org/galleries/space-helmets
 * ARC Tumblr page: http://arcnyc.tumblr.com
-* Sample Twitter post:
-* Sample Facebook post:
+* Sample Twitter post: https://twitter.com/ARCnyc/status/545228386382393344
+* Sample Facebook post: https://www.facebook.com/ArchiveOfContemporaryMusic/photos/a.10152509294507219.1073741828.179604847218/10152560573687219/?type=1
