@@ -14,7 +14,7 @@ There are two components that can be used separately or in concert:
 1. The web scraper grabs image URLs and metadata and writes them to a JSON file
 2. The photo post creater sends a user-determined number of photo posts to Tumblr, then marks those images as "posted" in the JSON file.
 
-You'll need to edit the settings.py file to tailor these scripts to your needs.
+You'll need to rename ```settings-example.py``` to ```settings.py``` in order to tailor these scripts to your needs.
 
 ### Web Scraper
 
