@@ -501,7 +501,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Canary's Combo / by John Nemec", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/canarys.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "202": {
         "gallery": "Pop music pulp paperbacks", 
@@ -942,7 +942,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Ballad of the Sad Cafe and Other Stories / by Carson McCullers", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/sadcafe.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "265": {
         "gallery": "Pop music pulp paperbacks", 
@@ -1040,7 +1040,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Great Rock 'n' Roll Swindle / by Michael Moorcock", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/swindle.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "280": {
         "gallery": "Pop music pulp paperbacks", 
@@ -1187,7 +1187,7 @@
         "gallery_url": "http://arcmusic.org/galleries/the-first-12-sun-lps/", 
         "image_meta": "Johnny Cash<br><strong>Sings the Songs That Made Him Famous</strong><br>Sun, USA, SLP 1235, LP, 12\", 33 rpm, n.d. [1958]", 
         "image_url": "http://arcmusic.org/wp-content/gallery/sun/slp-1235.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "301": {
         "gallery": "Sun LPs", 
@@ -1460,7 +1460,7 @@
         "gallery_url": "http://arcmusic.org/galleries/bellydance/", 
         "image_meta": "Sonny Lester<br><strong>Music to Keep Your Husband Happy</strong><br>Roulette, USA, SK108 / K-108, 2xLP, 12\", 33 rpm, n.d.", 
         "image_url": "http://arcmusic.org/wp-content/gallery/bellydance/belly_husband_happy.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "341": {
         "gallery": "Bellydance", 
