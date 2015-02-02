@@ -18,7 +18,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Franchise Affair / by Josephine Tey<br>featuring the head of Debbie Harry of Blondie", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/debbie.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "105": {
         "gallery": "Pop music pulp paperbacks", 
@@ -95,7 +95,7 @@
         "gallery_url": "http://arcmusic.org/galleries/cha-cha-cha/", 
         "image_meta": "<span class=\"artist\">Ethel Smith</span><br>\r\n<span class=\"title\">Ethel Smith\u2019s Cha-Cha-Cha Album</span><br>\r\n<span class=\"metadata\">Brunswick, UK, LAT 8134, LP, 12\", 33 rpm, no date listed</span>", 
         "image_url": "http://arcmusic.org/wp-content/gallery/cha-cha-cha/cha9sml.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "119": {
         "gallery": "Cha Cha Cha", 
@@ -179,7 +179,7 @@
         "gallery_url": "http://arcmusic.org/galleries/cha-cha-cha/", 
         "image_meta": "<span class=\"artist\">Various Artists (Al Castellanos, La Playa Sextete, Emilio Reyes)</span><br>\r\n<span class=\"title\">Take Our Three for Cha Cha Cha</span><br>\r\n<span class=\"metadata\">Mardi-Gras, USA, LP 5005, LP, 12\", 33 rpm, n.d</span>", 
         "image_url": "http://arcmusic.org/wp-content/gallery/cha-cha-cha/cha21sml.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "131": {
         "gallery": "Cha Cha Cha", 
@@ -235,7 +235,7 @@
         "gallery_url": "http://arcmusic.org/galleries/cha-cha-cha/", 
         "image_meta": "", 
         "image_url": "http://arcmusic.org/wp-content/gallery/cha-cha-cha/cha29sml.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "139": {
         "gallery": "Cha Cha Cha", 
@@ -270,7 +270,7 @@
         "gallery_url": "http://arcmusic.org/galleries/cha-cha-cha/", 
         "image_meta": "<span class=\"artist\">Jack Costanzo and his Latin Orchestra</span><br>\r\n<span class=\"title\">Mr. Bongo Plays Hi-Fi Cha Cha</span><br>\r\n<span class=\"metadata\">Tops, USA, L 1564, LP, 12\", 33 rpm, n.d.</span>", 
         "image_url": "http://arcmusic.org/wp-content/gallery/cha-cha-cha/cha34sml.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "169": {
         "gallery": "Keith\u2019s blues", 
@@ -284,7 +284,7 @@
         "gallery_url": "http://arcmusic.org/galleries/blues/", 
         "image_meta": "<span class='artist'>Bobby Bland</span><br><span class='title'>Ain't Nothing You Can Do</span><br><span class='metadata'>Duke, USA, DLP 78, LP, 12\", 33 rpm, n.d.</span>", 
         "image_url": "http://arcmusic.org/wp-content/gallery/blues/bland.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "171": {
         "gallery": "Keith\u2019s blues", 
@@ -368,7 +368,7 @@
         "gallery_url": "http://arcmusic.org/galleries/blues/", 
         "image_meta": "<span class='artist'>Leadbelly</span><br><span class='title'>I'm Never Gone</span><br><span class='metadata'>Folk Art Recordings; USA, FLP 5004, LP, 12\", 33 rpm, n.d.</span>", 
         "image_url": "http://arcmusic.org/wp-content/gallery/blues/leadbelly.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "183": {
         "gallery": "Keith\u2019s blues", 
@@ -396,7 +396,7 @@
         "gallery_url": "http://arcmusic.org/galleries/blues/", 
         "image_meta": "<span class='artist'>\"Big\" Miller</span><br><span class='title'>Did You Ever Hear the Blues?</span><br><span class='metadata'>United Artists, USA, YAS 6047, LP, 12\", 33 rpm, 1959</span>", 
         "image_url": "http://arcmusic.org/wp-content/gallery/blues/miller.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "187": {
         "gallery": "Keith\u2019s blues", 
@@ -424,7 +424,7 @@
         "gallery_url": "http://arcmusic.org/galleries/blues/", 
         "image_meta": "<span class='artist'>Skip James</span><br><span class='title'>Devil Got My Woman</span><br><span class='metadata'>Vanguard; USA, VSD 79273, LP, 12\", 33 rpm, n.d.</span>", 
         "image_url": "http://arcmusic.org/wp-content/gallery/blues/skip.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "191": {
         "gallery": "Keith\u2019s blues", 
@@ -438,7 +438,7 @@
         "gallery_url": "http://arcmusic.org/galleries/blues/", 
         "image_meta": "<span class='artist'>Sonny Terry</span><br><span class='title'>Talkin' 'Bout the Blues</span><br><span class='metadata'>Washington; USA, WLP 702, LP, 12\", 33 rpm, n.d.</span>", 
         "image_url": "http://arcmusic.org/wp-content/gallery/blues/terry.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "193": {
         "gallery": "Keith\u2019s blues", 
@@ -508,14 +508,14 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Absence of a Cello / by Ira Wallach", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/cello.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "203": {
         "gallery": "Pop music pulp paperbacks", 
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Corpse / by Carter Brown", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/corpse.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "204": {
         "gallery": "Pop music pulp paperbacks", 
@@ -564,7 +564,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Dear Bruce Springsteen / by Kevin Major", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/dearbruce.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "211": {
         "gallery": "Pop music pulp paperbacks", 
@@ -585,7 +585,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Death Spins the Platter / by Ellery Queen", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/deathspins.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "214": {
         "gallery": "Pop music pulp paperbacks", 
@@ -648,7 +648,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Festival / by Bryan Hay", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/festival.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "223": {
         "gallery": "Pop music pulp paperbacks", 
@@ -676,14 +676,14 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Golden Woman / by Eric Hatch", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/golden2.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "227": {
         "gallery": "Pop music pulp paperbacks", 
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Real Gone Goose / by George Bagby", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/goose.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "228": {
         "gallery": "Pop music pulp paperbacks", 
@@ -732,14 +732,14 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Man Who Killed Mick Jagger / by David Littlejohn", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/jagger.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "235": {
         "gallery": "Pop music pulp paperbacks", 
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Jazzercise / by Judi Sheppard MIssett with Dona Z. Meilach", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/jazer.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "236": {
         "gallery": "Pop music pulp paperbacks", 
@@ -760,7 +760,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Lace and Whiskey / by Alice Cooper", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/lace.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "239": {
         "gallery": "Pop music pulp paperbacks", 
@@ -802,14 +802,14 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Record Maker / by Mann Wright Jr.", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/maker.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "245": {
         "gallery": "Pop music pulp paperbacks", 
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Blues for Mister Charlie / by James Baldwin", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/mrcharlie.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "246": {
         "gallery": "Pop music pulp paperbacks", 
@@ -865,7 +865,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "New Short Novels / by Jean Stafford, Shelby Foote, Elizabeth Etnier, et al.", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/novels.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "254": {
         "gallery": "Pop music pulp paperbacks", 
@@ -879,7 +879,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Paris Blues / by Harold Flender", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/parisblues.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "256": {
         "gallery": "Pop music pulp paperbacks", 
@@ -928,7 +928,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Rolling Stones / by Robert A. Heinlein", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/rolling.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "263": {
         "gallery": "Pop music pulp paperbacks", 
@@ -991,7 +991,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Sing a Song of Sin / by Curt Aldrich", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/sin.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "272": {
         "gallery": "Pop music pulp paperbacks", 
@@ -1012,14 +1012,14 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Death Has a Small Voice / by Frances & Richard Lockridge", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/smlvoice.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "275": {
         "gallery": "Pop music pulp paperbacks", 
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "A Song Begins / by Mary Burchell", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/songbeg.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "276": {
         "gallery": "Pop music pulp paperbacks", 
@@ -1089,7 +1089,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "The Voodoo Murders / by Mike Avallone", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/voomurders.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "287": {
         "gallery": "Pop music pulp paperbacks", 
@@ -1138,7 +1138,7 @@
         "gallery_url": "http://arcmusic.org/galleries/pop-music-pulp/", 
         "image_meta": "Why Not Join the Giraffes? / by Hope Campbell", 
         "image_url": "http://arcmusic.org/wp-content/gallery/books/giraffes_web.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "294": {
         "gallery": "Keith\u2019s blues", 
@@ -1180,7 +1180,7 @@
         "gallery_url": "http://arcmusic.org/galleries/the-first-12-sun-lps/", 
         "image_meta": "Jerry Lee Lewis<br><strong>Jerry Lee Lewis</strong><br>Sun, USA, LP 1230, LP, 12\", 33 rpm, n.d. [1958]", 
         "image_url": "http://arcmusic.org/wp-content/gallery/sun/slp-1230.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "300": {
         "gallery": "Sun LPs", 
@@ -1215,7 +1215,7 @@
         "gallery_url": "http://arcmusic.org/galleries/the-first-12-sun-lps/", 
         "image_meta": "Roy Orbison<br><strong>Roy Orbison at the Rockhouse</strong><br>Sun, USA, LP 1260, LP, 12\", 33 rpm, n.d. [1961]", 
         "image_url": "http://arcmusic.org/wp-content/gallery/sun/slp-1260.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "305": {
         "gallery": "Sun LPs", 
@@ -1292,7 +1292,7 @@
         "gallery_url": "http://arcmusic.org/galleries/bellydance/", 
         "image_meta": "Eddie \"the Shiek\" Kochak & Hakki Obadia Orchestra<br><strong>Arrac-Laham Mishwee & Thou</strong><br>Mace, USA, M 10004, LP, 12\", 33 rpm, n.d. [195?]", 
         "image_url": "http://arcmusic.org/wp-content/gallery/bellydance/belly_arrac_laham.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "316": {
         "gallery": "Bellydance", 
@@ -1348,7 +1348,7 @@
         "gallery_url": "http://arcmusic.org/galleries/bellydance/", 
         "image_meta": "The Derbecki Ensemble<br><strong>Dabkie - Exotic Dances of the Middle East</strong><br>London, USA, LAS 68003, LP, 12\", 33 rpm, n.d.", 
         "image_url": "http://arcmusic.org/wp-content/gallery/bellydance/belly_dabkie.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "324": {
         "gallery": "Bellydance", 
@@ -1369,7 +1369,7 @@
         "gallery_url": "http://arcmusic.org/galleries/bellydance/", 
         "image_meta": "101 Strings<br><strong>East of Suez</strong><br>Somerset, USA, SF 11200, LP, 12\", 33 rpm, n.d.", 
         "image_url": "http://arcmusic.org/wp-content/gallery/bellydance/belly_east_suez.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "327": {
         "gallery": "Bellydance", 
@@ -1411,7 +1411,7 @@
         "gallery_url": "http://arcmusic.org/galleries/bellydance/", 
         "image_meta": "Fatima's Belly DAnces<br><strong>Exotic Music of the Near East</strong><br>Colonial, USA, 931, LP, 12\", 33 rpm, n.d.", 
         "image_url": "http://arcmusic.org/wp-content/gallery/bellydance/belly_fatimas_dances.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "333": {
         "gallery": "Bellydance", 
@@ -1439,7 +1439,7 @@
         "gallery_url": "http://arcmusic.org/galleries/bellydance/", 
         "image_meta": "Various Artists<br><strong>Belly Dance To Great Navel Music</strong><br>RCA, USA, APL 1 1820, LP, 12\", 33 rpm, 1976", 
         "image_url": "http://arcmusic.org/wp-content/gallery/bellydance/belly_great_navel.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "338": {
         "gallery": "Bellydance", 
@@ -1502,7 +1502,7 @@
         "gallery_url": "http://arcmusic.org/galleries/bellydance/", 
         "image_meta": "Morton Gould and his Orchestra<br><strong>Scheherezade</strong><br>RCA Victor, USA, LM 1956, LP, 12\", 33 rpm, n.d.", 
         "image_url": "http://arcmusic.org/wp-content/gallery/bellydance/belly_morton_gould.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "347": {
         "gallery": "Bellydance", 
@@ -1586,7 +1586,7 @@
         "gallery_url": "http://arcmusic.org/galleries/bellydance/", 
         "image_meta": "", 
         "image_url": "http://arcmusic.org/wp-content/gallery/bellydance/belly_scheherazade_bourne.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "359": {
         "gallery": "Bellydance", 
@@ -1642,7 +1642,7 @@
         "gallery_url": "http://arcmusic.org/galleries/bellydance/", 
         "image_meta": "", 
         "image_url": "http://arcmusic.org/wp-content/gallery/bellydance/belly_veil.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "367": {
         "gallery": "Bellydance", 
@@ -1726,7 +1726,7 @@
         "gallery_url": "http://arcmusic.org/galleries/45-centers-inserts/", 
         "image_meta": "", 
         "image_url": "http://arcmusic.org/wp-content/gallery/45-centers-inserts/metal_webster_rca.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "380": {
         "gallery": "45 adaptors", 
@@ -1747,7 +1747,7 @@
         "gallery_url": "http://arcmusic.org/galleries/45-centers-inserts/", 
         "image_meta": "", 
         "image_url": "http://arcmusic.org/wp-content/gallery/45-inserts2/kay_music.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "402": {
         "gallery": "45 adaptors", 
@@ -1852,14 +1852,14 @@
         "gallery_url": "http://arcmusic.org/galleries/la-punk-posters/", 
         "image_meta": "", 
         "image_url": "http://arcmusic.org/wp-content/gallery/la-punk-posters/fast.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "435": {
         "gallery": "LA punk flyers", 
         "gallery_url": "http://arcmusic.org/galleries/la-punk-posters/", 
         "image_meta": "", 
         "image_url": "http://arcmusic.org/wp-content/gallery/la-punk-posters/last1.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "436": {
         "gallery": "LA punk flyers", 
@@ -1887,7 +1887,7 @@
         "gallery_url": "http://arcmusic.org/galleries/la-punk-posters/", 
         "image_meta": "", 
         "image_url": "http://arcmusic.org/wp-content/gallery/la-punk-posters/psouls.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "440": {
         "gallery": "LA punk flyers", 
@@ -1908,7 +1908,7 @@
         "gallery_url": "http://arcmusic.org/galleries/la-punk-posters/", 
         "image_meta": "", 
         "image_url": "http://arcmusic.org/wp-content/gallery/la-punk-posters/screamers2.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "443": {
         "gallery": "LA punk flyers", 
@@ -1971,7 +1971,7 @@
         "gallery_url": "http://arcmusic.org/galleries/space/", 
         "image_meta": "Billy Cafaro<br><strong>Marcianita</strong><br>Fontana, 467 153 TE, 7\" single, 45 rpm,", 
         "image_url": "http://arcmusic.org/wp-content/gallery/space/BORT-28.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "555": {
         "gallery": "Space helmets", 
@@ -1992,7 +1992,7 @@
         "gallery_url": "http://arcmusic.org/galleries/space/", 
         "image_meta": "Bill Dana [Jose Jimenez]<br><strong>Jose Jimenez in Orbit, Bill Dana on Earth</strong><br>Kapp, USA, KL-1257, LP, 12\", 33 rpm, n.d.", 
         "image_url": "http://arcmusic.org/wp-content/gallery/space/Inorbit.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "558": {
         "gallery": "Space helmets", 
@@ -2034,7 +2034,7 @@
         "gallery_url": "http://arcmusic.org/galleries/space/", 
         "image_meta": "ran-dells<br><strong>'Martian Hop'</strong><br>Chairman, USA, 45-4403,  7\" single, 45 rpm, n.d.", 
         "image_url": "http://arcmusic.org/wp-content/gallery/space/martianhop.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "564": {
         "gallery": "Space helmets", 
@@ -2055,7 +2055,7 @@
         "gallery_url": "http://arcmusic.org/galleries/space/", 
         "image_meta": "Big Daddy Sun and the Outer Planets<br><strong>Out Here In Space</strong><br>Pogo, USA, 306087, 7\" single, 45 rpm, 1983", 
         "image_url": "http://arcmusic.org/wp-content/gallery/space/outhereinspace.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "567": {
         "gallery": "Space helmets", 
@@ -2104,14 +2104,14 @@
         "gallery_url": "http://arcmusic.org/galleries/space/", 
         "image_meta": "", 
         "image_url": "http://arcmusic.org/wp-content/gallery/space/Huck.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "577": {
         "gallery": "Almost Beatles", 
         "gallery_url": "http://arcmusic.org/galleries/almost-beatles/", 
         "image_meta": "Chet Atkins<br><strong>Chet Atkins Picks on the Beatles</strong><br>RCA Victor, USA, LPM-3531, LP, 12\", 33 rpm, 1966", 
         "image_url": "http://arcmusic.org/wp-content/gallery/almost-beatles/atkins.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "578": {
         "gallery": "Almost Beatles", 
@@ -2160,7 +2160,7 @@
         "gallery_url": "http://arcmusic.org/galleries/almost-beatles/", 
         "image_meta": "no artist listed<br><strong>The Beatles Hits in Brass and Percussion</strong><br>Audio Fidelity, USA, DFS 7045, LP, 12\", 33 rpm, 1966", 
         "image_url": "http://arcmusic.org/wp-content/gallery/almost-beatles/Beatlesbrasspercussion.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "585": {
         "gallery": "Almost Beatles", 
@@ -2223,7 +2223,7 @@
         "gallery_url": "http://arcmusic.org/galleries/almost-beatles/", 
         "image_meta": "The Hollyridge Strings<br><strong>The Hollyridge Strings play Magical Mystery Tour : The Beatles Song Book Vol 5</strong><br>Capitol, USA, ST 2876, LP, 12\", 33 rpm, n.d.", 
         "image_url": "http://arcmusic.org/wp-content/gallery/almost-beatles/Hollyridgemystery.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "596": {
         "gallery": "Almost Beatles", 
@@ -2244,7 +2244,7 @@
         "gallery_url": "http://arcmusic.org/galleries/almost-beatles/", 
         "image_meta": "The Liverpools<br><strong>Beatle Mania in the U.S.A.</strong><br>Wyncote, USA, W 9001, LP, 12\", 33 rpm, n.d. [1964]", 
         "image_url": "http://arcmusic.org/wp-content/gallery/almost-beatles/liverpools.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "599": {
         "gallery": "Almost Beatles", 
@@ -2265,7 +2265,7 @@
         "gallery_url": "http://arcmusic.org/galleries/almost-beatles/", 
         "image_meta": "Russ Sainty with the Johnny Arthey Sound<br><strong>Million Copy Sellers Made Famous by the Beatles</strong><br>Boulevard, UK, 4064, LP, 12\", 33 rpm, 1971", 
         "image_url": "http://arcmusic.org/wp-content/gallery/almost-beatles/RussSainity.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "603": {
         "gallery": "Almost Beatles", 
@@ -2328,7 +2328,7 @@
         "gallery_url": "http://arcmusic.org/galleries/almost-beatles/", 
         "image_meta": "George Benson<br><strong>Other Side Of Abbey Road</strong><br>A&M, SP 3028, LP, 12\", 33 rpm, 1969", 
         "image_url": "http://arcmusic.org/wp-content/gallery/abby-road/otherside.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "612": {
         "gallery": "Almost Beatles", 
@@ -2363,7 +2363,7 @@
         "gallery_url": "http://arcmusic.org/galleries/space/", 
         "image_meta": "Moon Lizards<br><strong>'Big Bum'</strong><br>Schemer, Netherlands, S 9002, 7\" single, 45 rpm, 1990", 
         "image_url": "http://arcmusic.org/wp-content/gallery/space/moonlizards.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "618": {
         "gallery": "Space helmets", 
@@ -2468,7 +2468,7 @@
         "gallery_url": "http://arcmusic.org/galleries/almost-beatles/", 
         "image_meta": "The Leon Young String Chorale<br>  \r\n<strong>Liverpool Sound for Strings</strong><br>  Atco, 33-163, LP, 12\", 33 rpm, 1964", 
         "image_url": "http://arcmusic.org/wp-content/gallery/almost-beatles/Liverpool.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "652": {
         "gallery": "Almost Beatles", 
@@ -2489,7 +2489,7 @@
         "gallery_url": "http://arcmusic.org/galleries/adopt/", 
         "image_meta": "<span class=\"artist\">Brian is in to ex-ta-sy</span><br>", 
         "image_url": "http://arcmusic.org/wp-content/gallery/adopt/Brian_Hecht_adopt.jpg", 
-        "posted_to_tumblr": false
+        "posted_to_tumblr": true
     }, 
     "658": {
         "gallery": "Adopt-a-record", 
